@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load bootstrap3 %}{% load i18n staticfiles %}
+
+
+{% block title %}{% trans "A propos de nous" %}{% endblock %}
+
+
+{% block content %}
+<h3><i class="fa fa-angle-right"></i> {% trans "A propos ..." %} </h3>
+
+
+<p>{% trans "Ce site web a été développé en 2014 par un groupe d'étudiants (Denis Genon, Thibault Gerondal, Michaël Heraly, Baptiste Lacasse, Arnold Moyaux, Aloïs Paulus, Jérémy Vanhee, Victor Velghe) dans le cadre du cours de Software Development Project,  enseigné à l'Université Catholique de Louvain,  et encadré par le professeur Kim Mens et ses assistants." %}</b>.</p>
+
+{% endblock %}
